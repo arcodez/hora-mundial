@@ -7,7 +7,7 @@ export function useGetContinents() {
 
   useEffect(() => {
     //var pais = ["America/Venezuela", "America/Argentina"];
-    let Continente = continentes;
+    let Continente = continentes; 
     let arr = [];
     for (let i = 0, len = Continente.length; i < len; i++) {
       arr[i] = Continente[i].split("/")[0];
